@@ -1,0 +1,30 @@
+/*Product List Display*/
+.product-min-height
+{
+  min-height: 200px;
+  max-height: 200px;
+}     
+.product-data
+{
+  width:100%;
+  padding:5%;
+  object-fit: contain;
+} 
+
+/*Brand List Display*/
+.brand-image
+{
+  width:100%;
+  padding: 5%;
+  object-fit: contain;
+}
+
+/*Category List Display*/
+.category-image
+{
+  width:100%;
+  padding: 5%;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: contain;
+}

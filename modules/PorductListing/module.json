@@ -1,0 +1,13 @@
+{
+    "name": "PorductListing",
+    "alias": "porductlisting",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PorductListing\\Providers\\PorductListingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

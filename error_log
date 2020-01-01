@@ -1,0 +1,4 @@
+[14-Oct-2019 12:58:06 UTC] PHP Fatal error:  Can't use method return value in write context in /home/kejgvadt/artist.technocometsolutions.com/Modules/Artist/Http/Controllers/AdminArtistController.php on line 67
+[23-Oct-2019 09:52:47 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85983232 bytes) in /home/kejgvadt/artist.technocometsolutions.com/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php on line 71
+[23-Oct-2019 09:52:57 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85983232 bytes) in /home/kejgvadt/artist.technocometsolutions.com/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php on line 71
+[24-Oct-2019 12:51:13 UTC] PHP Fatal error:  Cannot use App\SpaArtist as SpaArtist because the name is already in use in /home/kejgvadt/artist.technocometsolutions.com/Modules/Admin/Http/Controllers/AdminController.php on line 16
