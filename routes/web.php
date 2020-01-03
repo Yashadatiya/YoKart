@@ -17,7 +17,7 @@ Route::get('/', function () {
     \Artisan::call('route:clear');
     \Artisan::call('cache:clear');
     \Artisan::call('view:clear');
-    return view('auth.login');
+    return redirect()->route('dashboard');
 });
 
 /*Route::get('/terms/condition', function () {

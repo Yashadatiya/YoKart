@@ -37,7 +37,7 @@ class PorductListingController extends Controller
         ->join('category','product_category.category_id','category.cat_id')
         ->where('product_category.category_id',$catID)
         ->select('category.name as cat_nm','product_master.name as p_nm','product_master.*','category.*')
-        ->get();
+        ->paginate(4);
         return view('porductlisting::subcategory',compact('all_category','subcat','all_brand','all_product'));
     }
 
@@ -46,9 +46,7 @@ class PorductListingController extends Controller
         
         $productName = $product;
         $product_id = Product::where('name',$productName)->first();
-        $product = Product::where('name',$productName)
-        ->leftJoin('product_wholesaler','product_master.id','product_wholesaler.product_id')
-        ->first();
+        $product = Product::where('name',$productName)->first();
         $product_image = ProductImage::where('product_id',$product_id->id)->get();
         $product_size = ProductSizeColor::where('product_id',$product_id->id)->get();
         $product_extra_data = ProductSizeColor::where('product_id',$product_id->id)->get(['color','product_id'])->KeyBy('color');
@@ -65,6 +63,64 @@ class PorductListingController extends Controller
             $value->images_new = $color_image;
         }
         return view('porductlisting::product-detail',compact('product','productName','product_image','product_extra_data','product_size_data'));
+    }
+
+
+    public function ProductColorWiseDetail(Request $request)
+    {
+        
+        $colorName = $request->color;
+        $product_id = $request->product_id;
+        /*$productName = Product::where('id',$product_id)->first(['name']);
+        $product = Product::where('id',$product_id)
+        ->leftJoin('product_wholesaler','product_master.id','product_wholesaler.product_id')
+        ->first();*/
+        //$product_image = ProductSizeColor::where('color',$colorName)->where('product_id',$product_id->id)->get();
+        $product_size = ProductSizeColor::where('color',$colorName)->where('product_id',$product_id)->get(['color','size','image']);
+        
+
+        $color_data = '';
+        $default_data = '';
+        $class="'.cloudzoom'";
+        $image = "image:'";
+        $image_end = "' ";
+        $color_data .= '<div class="thumbelina-but vert top ">˄</div>
+                        <ul class="product_images_display " style="top: 0px;">';
+        foreach ($product_size as $img_key => $img_value) 
+        {
+            $img_name = url('/public/front/product/'.$img_value->image);
+            $color_data .= '<li style="display:block;"><a href='.$img_name.' title="'.$img_value->image.'"><img class="cloudzoom-gallery" src='.$img_name.' alt="'.$img_value->image.'" data-cloudzoom="
+
+                                useZoom:'.$class.',
+
+                                '.$image.''.$img_name.''.$image_end.'
+
+                                "></a></li>';
+        }
+        $color_data .= '</ul>
+                        <div class="thumbelina-but vert bottom">˅</div>';
+        $inside = "'inside'";         
+        $auto = "'auto'";         
+        $default_img = url('/public/front/product/'.$product_size[0]->image);
+        $default_data .= '<a href="'.$default_img.'">
+               <img class="cloudzoom" src="'.$default_img.'"
+               alt="'.$product_size[0]->image.'"
+               data-cloudzoom="
+               zoomPosition:'.$inside.',
+               zoomOffsetX:0,
+               zoomFlyOut:false,
+               variableMagnification:false,
+               disableZoom:'.$auto.',
+               touchStartDelay:100,
+               propagateGalleryEvent:true
+               ">
+            </a>';
+        $data['images'] = $color_data;
+        $data['default_image'] = $default_data;
+        /*$data['default_images'] = $default_image;*/
+                        
+        return response()->json(['status' => 1,'success' =>  $data]);
+        //return view('porductlisting::product-detail',compact('product','productName','product_image','product_extra_data','product_size_data'));
     }
 
     public function store(Request $request)

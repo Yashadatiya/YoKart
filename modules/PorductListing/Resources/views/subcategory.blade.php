@@ -426,7 +426,7 @@
                            <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                         </div>
                         <div class="product-img">
-                           <a href="{{ route('product',['product'=>$product->p_nm]) }}"><img class="product-min-height product-data" src="@if(file_exists(public_path('front/images/'.$product->main_image))) {{ asset('public/front/images/'.$product->main_image)}} @else {{ asset('public/front/images/tp-img-1.jpg')}} @endif" alt="{{ $product->main_image }}" ></a>
+                           <a href="{{ route('product',['product'=>$product->p_nm]) }}"><img class="product-min-height product-data" src="@if(file_exists(public_path('front/product/'.$product->main_image))) {{ asset('public/front/product/'.$product->main_image)}} @else {{ asset('public/front/product/tp-img-1.jpg')}} @endif" alt="{{ $product->main_image }}" ></a>
                         </div>
                         <div class="product-text">
                            <div class="prod-cat">{{ $product->cat_nm }}</div>
@@ -449,12 +449,7 @@
                   @endforeach
                </div>
                <ul class="pagination">
-                  <li><a href="">Previous</a></li>
-                  <li><a href="">1</a></li>
-                  <li><a href="" class="active">2</a></li>
-                  <li><a href="">3</a></li>
-                  <li><a href="">4</a></li>
-                  <li><a href="">Next</a></li>
+                  {{ $all_product->links() }}
                </ul>
             </div>
          </div>
