@@ -16,10 +16,13 @@
           <div class="footer-group">
             <h5 class="footer-title">Help</h5>
             <ul class="footer-links">
-              <li><a href="javascript:void(0)">How to Buy</a></li>
+              @foreach($helps as $help)
+                <li><a href="#">{{ $help->title }}</a></li>
+              @endforeach
+              <!-- <li><a href="javascript:void(0)">How to Buy</a></li>
               <li><a href="javascript:void(0)">How to Payment</a></li>
               <li><a href="javascript:void(0)">How to Refund</a></li>
-              <li><a href="javascript:void(0)">How to Join as Member</a></li>
+              <li><a href="javascript:void(0)">How to Join as Member</a></li> -->
               
             </ul>
           </div>
@@ -28,11 +31,23 @@
           <div class="footer-group">
             <h5 class="footer-title">Customer Care</h5>
             <ul class="footer-links">
-              <li><i class="fa fa-phone-volume" aria-hidden="true"></i><a href="">dummy  </a></li>
+              @if($customercare->contactno)
+                <li><i class="fa fa-phone-volume"></i><a href="tel:6281219082008">{{ $customercare->contactno }}</a></li>
+              @endif
+              @if($customercare->phone_no)
+                <li><i class="fa fa-phone-volume"></i><a href="tel:6281219082008">{{ $customercare->phone_no }}</a></li>
+              @endif
+              @if($customercare->email)
+                <li><i class="fa fa-envelope"></i><a href="javascript:void(0)">{{ $customercare->email }}</a></li>
+              @endif
+              @if($customercare->whatsappno)
+                <li><i class="fab fa-whatsapp"></i><a href="tel:6281219082008">{{ $customercare->whatsappno }}</a></li>
+              @endif
+              {{-- <li><i class="fa fa-phone-volume" aria-hidden="true"></i><a href="">dummy  </a></li>
               <li><i class="fa fa-phone-volume"></i><a href="tel:6281219082008">+62812 1908 2008</a></li>
               <li><i class="fa fa-envelope"></i><a href="javascript:void(0)">Terms and Conditions</a></li>
               <li><i class="fab fa-whatsapp"></i><a href="tel:6281219082008">+62812 1908 2008</a></li>
-              <li><i class="fa fa-phone-volume" aria-hidden="true"></i><a href=""> <a href="javascript:void(0)">@shop.id</a></li>
+              <li><i class="fa fa-phone-volume" aria-hidden="true"></i><a href=""> <a href="javascript:void(0)">@shop.id</a></li> --}}
             </ul>
           </div>
         </div>

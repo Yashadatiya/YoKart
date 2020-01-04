@@ -62,4 +62,26 @@ function get_product_data(ele)
     });
 }
 
+function brandsproduct(ele)
+{
+  $("div#divLoading").addClass('show');
+  var brand = ele.getAttribute('data-id');
+  // alert(brand);
 
+  $.ajaxSetup({
+   headers: {
+       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+   }});
+  $.ajax({
+        type: 'GET',
+        url:APP_URL+'/product-listing/sub-category/'+brand,
+        dataType: 'html',
+        success: function(data)
+        {
+           $("div#divLoading").removeClass('show');   
+          // var response = JSON.parse(data);
+           $('.custom-product-data').html(data);
+           //$('#product-image').html(response.success.default_image);
+        }
+    });
+}

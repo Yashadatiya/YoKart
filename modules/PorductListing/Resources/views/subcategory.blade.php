@@ -164,7 +164,7 @@
             <ul class="brand-img">
                @foreach($all_brand as $brn_key => $brn_value)
                <li>
-                <center><a href="javascript:void(0)"><img style="width:100%;padding: 5%;" src="@if(!empty($brn_value->logo)) @if(file_exists(public_path('front/brand/'.$brn_value->logo))) {{ asset('public/front/brand/'.$brn_value->logo)}} @else {{ asset('public/front/brand/default_brand_image.png')}} @endif @else {{ asset('public/front/brand/default_brand_image.png')}}  @endif" alt="{{ $brn_value->name }}"></a></center>
+                <center><a data-id="{{ $brn_value->brand_id }}" onclick="brandsproduct(this)" style="cursor: pointer"><img style="width:100%;padding: 5%;" src="@if(!empty($brn_value->logo)) @if(file_exists(public_path('front/brand/'.$brn_value->logo))) {{ asset('public/front/brand/'.$brn_value->logo)}} @else {{ asset('public/front/brand/default_brand_image.png')}} @endif @else {{ asset('public/front/brand/default_brand_image.png')}}  @endif" alt="{{ $brn_value->name }}"></a></center>
                </li>
               @endforeach 
             </ul>
@@ -385,7 +385,7 @@
                   </div>
                </div>
             </div>
-            <div class="inner-page-product-right">
+            <div class="inner-page-product-right  custom-product-data">
                <div class="sorting-sec">
                   <ul class="sort-data">
                      <li><span>Sort By</span></li>

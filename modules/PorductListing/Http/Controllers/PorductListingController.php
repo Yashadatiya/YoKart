@@ -11,6 +11,9 @@ use App\Brand;
 use App\Product;
 use App\ProductImage;
 use App\ProductSizeColor;
+use App\GeneralStore;
+use App\GeneralContact;
+use App\HelpPage;
 
 class PorductListingController extends Controller
 {
@@ -22,28 +25,49 @@ class PorductListingController extends Controller
         $all_product = Product::leftJoin('product_category','product_master.id','product_category.product_id')
         ->join('category','product_category.category_id','category.cat_id')
         ->select('category.name as cat_nm','product_master.name as p_nm','product_master.*','category.*')
-        ->get();
-
+        ->paginate(4);
         return view('porductlisting::index',compact('all_category','all_brand','all_product'));
     }
 
-    
     public function SubCategory(Request $request, $subcat)
     {   
-        $catID = Category::where('name',$subcat)->value('cat_id');
-        $all_category = Category::where('parent_id',$catID)->get();
-        $all_brand = Brand::take(10)->where('logo','!=',' ')->get();
-        $all_product = Product::leftJoin('product_category','product_master.id','product_category.product_id')
-        ->join('category','product_category.category_id','category.cat_id')
-        ->where('product_category.category_id',$catID)
-        ->select('category.name as cat_nm','product_master.name as p_nm','product_master.*','category.*')
-        ->paginate(4);
-        return view('porductlisting::subcategory',compact('all_category','subcat','all_brand','all_product'));
+        if(request()->ajax())
+        {
+            $all_product = Product::leftJoin('product_category','product_master.id','=','product_category.product_id')
+            ->join('category','product_category.category_id','=','category.cat_id')
+            ->where('product_master.brand_id',$subcat)
+            ->select('category.name as cat_nm','product_master.name as p_nm','product_master.*','category.*')
+            ->paginate(4); 
+
+            $product_data = view("porductlisting::product_change_data",compact('all_product'));
+            echo $product_data;
+        }
+        else
+        {
+            $catID = Category::where('name',$subcat)->value('cat_id');
+
+            $category_data = Category::where('parent_id',$catID)->get();
+            if((count($category_data)!=0))
+            {
+                $all_category = Category::where('parent_id',$catID)->get();
+            }
+            else
+            {
+                $all_category = Category::where('cat_id',$catID)->get();
+            }
+            $all_brand = Brand::take(10)->where('logo','!=',' ')->get();
+            $all_product = Product::leftJoin('product_category','product_master.id','=','product_category.product_id')
+            ->join('category','product_category.category_id','=','category.cat_id')
+            ->where('product_category.category_id',$catID)
+            ->select('category.name as cat_nm','product_master.name as p_nm','product_master.*','category.*')
+            ->paginate(4);
+
+            return view('porductlisting::subcategory',compact('all_category','subcat','all_brand','all_product'));
+        }
     }
 
     public function ProductDetail(Request $request, $product)
     {
-        
         $productName = $product;
         $product_id = Product::where('name',$productName)->first();
         $product = Product::where('name',$productName)->first();
@@ -71,11 +95,6 @@ class PorductListingController extends Controller
         
         $colorName = $request->color;
         $product_id = $request->product_id;
-        /*$productName = Product::where('id',$product_id)->first(['name']);
-        $product = Product::where('id',$product_id)
-        ->leftJoin('product_wholesaler','product_master.id','product_wholesaler.product_id')
-        ->first();*/
-        //$product_image = ProductSizeColor::where('color',$colorName)->where('product_id',$product_id->id)->get();
         $product_size = ProductSizeColor::where('color',$colorName)->where('product_id',$product_id)->get(['color','size','image']);
         
 
@@ -122,6 +141,20 @@ class PorductListingController extends Controller
         return response()->json(['status' => 1,'success' =>  $data]);
         //return view('porductlisting::product-detail',compact('product','productName','product_image','product_extra_data','product_size_data'));
     }
+
+     public function ProductBrandWiseDetail(Request $request)
+    {
+        $all_product = Product::leftJoin('product_category','product_master.id','=','product_category.product_id')
+        ->join('category','product_category.category_id','=','category.cat_id')
+        ->where('product_master.brand_id',$request->brand)
+        ->select('category.name as cat_nm','product_master.name as p_nm','product_master.*','category.*')
+        ->paginate(4); 
+
+        $product_data = view("porductlisting::product_change_data",compact('all_product'));
+        echo $product_data;
+        //return response()->json(['status' => 1,'success' =>  $product_data]);   
+    }    
+
 
     public function store(Request $request)
     {

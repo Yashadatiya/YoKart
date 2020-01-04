@@ -39,17 +39,20 @@
     <div class="middle-header">
       <div class="custom-container">
         <div class="logo-wrap">
-          <a href="{{ route('dashboard')}}"><img src="{{ asset('public/front/images/logo.png')}}" alt="logo"></a>
+          <img src="{{ asset('public/front/images/logo.png')}}" alt="logo">
         </div>
         <div class="search-wrap">
           <form>
             <select>
               <option value="hide">all</option>
               <option value="hide">SEARCH ITEMS</option>
-              <option value="Baby & Kids">Baby & Kids</option>
+              {{-- <option value="Baby & Kids">Baby & Kids</option>
               <option value="Electronics">Electronics</option>
               <option value="Men">Men</option>
-              <option value="Women">Women</option>
+              <option value="Women">Women</option> --}}
+              @foreach($main_category as $cat_key => $cat_value)
+                <option value="{{ $cat_value }}">{{ $cat_value }}</option>
+              @endforeach  
             </select>
             <div class="field-item">
               <input type="I Am Looking For..." name="">
@@ -74,7 +77,7 @@
     <div class="bottom-header">
       <div class="custom-container">
         <ul class="main-menu">
-          <li class="menu-child">
+          {{-- <li class="menu-child">
             <a href="javascript:void(0)">Electronics</a>
             <div class="subnav">
               <ul class="sublinks">
@@ -165,7 +168,12 @@
                 </li>
               </ul>
             </div>
+          </li> --}}
+          @foreach($main_category as $cat_key => $cat_value)
+          <li class="menu-child">
+            <a href="{{ route('sub',['subcat'=>$cat_value]) }}">{{ $cat_value }}</a>
           </li>
+          @endforeach  
           <li class="menu-child">
             <a href="javascript:void(0)">About Us</a>
           </li>

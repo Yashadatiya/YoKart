@@ -119,7 +119,7 @@
             @include('porductlisting::layouts.header')
             {{ csrf_field() }} 
             @yield('content')
-            {{-- @include('porductlisting::layouts.footer') --}}
+            @include('porductlisting::layouts.footer')
     {{-- </div> --}}
 
     <!--Core Jquery JS -->

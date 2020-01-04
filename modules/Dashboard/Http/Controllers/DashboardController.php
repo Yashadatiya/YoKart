@@ -5,7 +5,11 @@ namespace Modules\Dashboard\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
+use App\GeneralStore;
+use App\GeneralContact;
+use App\HelpPage;
 use App\Banner;
+use App\Category;
 
 class DashboardController extends Controller
 {
@@ -16,6 +20,7 @@ class DashboardController extends Controller
     public function index()
     {
         $banner = Banner::where('is_active',1)->get();
+
         return view('dashboard::index',compact('banner'));
     }
 

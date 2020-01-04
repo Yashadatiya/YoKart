@@ -17,4 +17,5 @@ Route::prefix('product-listing')->group(function() {
     Route::get('/sub-category/{subcat}', 'PorductListingController@SubCategory')->name('sub');
     Route::get('/product/{product}', 'PorductListingController@ProductDetail')->name('product');
     Route::post('/product/change-data', 'PorductListingController@ProductColorWiseDetail');
+    Route::post('/brand/change-data', 'PorductListingController@ProductBrandWiseDetail');
 });
