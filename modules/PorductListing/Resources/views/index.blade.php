@@ -6,61 +6,61 @@
       <ul>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/images/list-with-dots.svg')}}" alt="list-with-dots"></span>
+            <span class="icon"><img src="{{ asset('front/images/list-with-dots.svg')}}" alt="list-with-dots"></span>
             <span>All Categories</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/women-dress.svg')}}" alt="women-dress"></span>
+            <span class="icon"><img src="{{ asset('front/images/women-dress.svg')}}" alt="women-dress"></span>
             <span>Women Clothing</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/cotton-polo-shirt.svg')}}" alt="cotton-polo-shirt"></span>
+            <span class="icon"><img src="{{ asset('front/images/cotton-polo-shirt.svg')}}" alt="cotton-polo-shirt"></span>
             <span>Men Clothing</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/baby-boy.svg')}}" alt="baby-boy"></span>
+            <span class="icon"><img src="{{ asset('front/images/baby-boy.svg')}}" alt="baby-boy"></span>
             <span>Baby & Kids</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/running.svg')}}" alt="running"></span>
+            <span class="icon"><img src="{{ asset('front/images/running.svg')}}" alt="running"></span>
             <span>Footwares</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/football.svg')}}" alt="football"></span>
+            <span class="icon"><img src="{{ asset('front/images/football.svg')}}" alt="football"></span>
             <span>Sports wear</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/mobile-phone.svg')}}" alt="mobile-phone"></span>
+            <span class="icon"><img src="{{ asset('front/images/mobile-phone.svg')}}" alt="mobile-phone"></span>
             <span>Phones & Accessories</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/laptop.svg')}}" alt="laptop"></span>
+            <span class="icon"><img src="{{ asset('front/images/laptop.svg')}}" alt="laptop"></span>
             <span>Computer & Office</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/console.svg')}}" alt="console"></span>
+            <span class="icon"><img src="{{ asset('front/images/console.svg')}}" alt="console"></span>
             <span>Gaming Consoles</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/home.svg')}}" alt="home"></span>
+            <span class="icon"><img src="{{ asset('front/images/home.svg')}}" alt="home"></span>
             <span>Home & Garden</span>
             </a>
          </li>
@@ -72,61 +72,61 @@
       <ul>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/list-with-dots.svg')}}" alt="list-with-dots"></span>
+            <span class="icon"><img src="{{ asset('front/images/list-with-dots.svg')}}" alt="list-with-dots"></span>
             <span>All Categories</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/women-dress.svg')}}" alt="women-dress"></span>
+            <span class="icon"><img src="{{ asset('front/images/women-dress.svg')}}" alt="women-dress"></span>
             <span>Women Clothing</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/cotton-polo-shirt.svg')}}" alt="cotton-polo-shirt"></span>
+            <span class="icon"><img src="{{ asset('front/images/cotton-polo-shirt.svg')}}" alt="cotton-polo-shirt"></span>
             <span>Men Clothing</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/baby-boy.svg')}}" alt="baby-boy"></span>
+            <span class="icon"><img src="{{ asset('front/images/baby-boy.svg')}}" alt="baby-boy"></span>
             <span>Baby & Kids</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/running.svg')}}" alt="running"></span>
+            <span class="icon"><img src="{{ asset('front/images/running.svg')}}" alt="running"></span>
             <span>Footwares</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/football.svg')}}" alt="football"></span>
+            <span class="icon"><img src="{{ asset('front/images/football.svg')}}" alt="football"></span>
             <span>Sports wear</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/mobile-phone.svg')}}" alt="mobile-phone"></span>
+            <span class="icon"><img src="{{ asset('front/images/mobile-phone.svg')}}" alt="mobile-phone"></span>
             <span>Phones & Accessories</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/laptop.svg')}}" alt="laptop"></span>
+            <span class="icon"><img src="{{ asset('front/images/laptop.svg')}}" alt="laptop"></span>
             <span>Computer & Office</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/console.svg')}}" alt="console"></span>
+            <span class="icon"><img src="{{ asset('front/images/console.svg')}}" alt="console"></span>
             <span>Gaming Consoles</span>
             </a>
          </li>
          <li>
             <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/home.svg')}}" alt="home"></span>
+            <span class="icon"><img src="{{ asset('front/images/home.svg')}}" alt="home"></span>
             <span>Home & Garden</span>
             </a>
          </li>
@@ -143,7 +143,7 @@
                   <div class="item grid">
                      <div class="product-img">
                         <a href="{{ route('sub',['subcat'=>$main_value->name]) }}">
-                        <img class="category-image" src="@if(!empty($main_value->logo))@if(file_exists(public_path('front/category/'.$main_value->logo))) {{ asset('public/front/category/'.$main_value->logo)}} @else {{ asset('public/front/category/cat-default.jpg')}} @endif @else {{ asset('public/front/category/cat-default.jpg')}} @endif" alt="{{ $main_value->logo }}">
+                        <img class="category-image" src="@if(!empty($main_value->logo))@if(file_exists(public_path('front/category/'.$main_value->logo))) {{ asset('front/category/'.$main_value->logo)}} @else {{ asset('front/category/cat-default.jpg')}} @endif @else {{ asset('front/category/cat-default.jpg')}} @endif" alt="{{ $main_value->logo }}">
                         </a>
                      </div>
                      <div class="product-text">
@@ -164,19 +164,19 @@
             <ul class="brand-img">
               @foreach($all_brand as $brn_key => $brn_value)
                <li>
-                <center><a data-id="{{ $brn_value->brand_id }}" onclick="brandsproduct(this)" style="cursor: pointer"><img class="brand-image" src="@if(!empty($brn_value->logo)) @if(file_exists(public_path('front/brand/'.$brn_value->logo))) {{ asset('public/front/brand/'.$brn_value->logo)}} @else {{ asset('public/front/brand/default_brand_image.png')}} @endif @else {{ asset('public/front/brand/default_brand_image.png')}}  @endif" alt="{{ $brn_value->name }}"></a></center>
+                <center><a data-id="{{ $brn_value->brand_id }}" onclick="brandsproduct(this)" style="cursor: pointer"><img class="brand-image" src="@if(!empty($brn_value->logo)) @if(file_exists(public_path('front/brand/'.$brn_value->logo))) {{ asset('front/brand/'.$brn_value->logo)}} @else {{ asset('front/brand/default_brand_image.png')}} @endif @else {{ asset('front/brand/default_brand_image.png')}}  @endif" alt="{{ $brn_value->name }}"></a></center>
                   
                </li>
               @endforeach 
-               {{-- <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/apple.png')}}"></a></li>
-               <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/arrow.jpg')}}"></a></li>
-               <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/avast.png')}}"></a></li>
-               <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/louis-philip.png')}}"></a></li>
-               <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/apple.png')}}"></a></li>
-               <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/fabindia.png')}}"></a></li>
-               <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/avast.png')}}"></a></li>
-               <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/louis-philip.png')}}"></a></li>
-               <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/apple.png')}}"></a></li> --}}
+               {{-- <li><a href="javascript:void(0)"><img src="{{ asset('front/images/apple.png')}}"></a></li>
+               <li><a href="javascript:void(0)"><img src="{{ asset('front/images/arrow.jpg')}}"></a></li>
+               <li><a href="javascript:void(0)"><img src="{{ asset('front/images/avast.png')}}"></a></li>
+               <li><a href="javascript:void(0)"><img src="{{ asset('front/images/louis-philip.png')}}"></a></li>
+               <li><a href="javascript:void(0)"><img src="{{ asset('front/images/apple.png')}}"></a></li>
+               <li><a href="javascript:void(0)"><img src="{{ asset('front/images/fabindia.png')}}"></a></li>
+               <li><a href="javascript:void(0)"><img src="{{ asset('front/images/avast.png')}}"></a></li>
+               <li><a href="javascript:void(0)"><img src="{{ asset('front/images/louis-philip.png')}}"></a></li>
+               <li><a href="javascript:void(0)"><img src="{{ asset('front/images/apple.png')}}"></a></li> --}}
             </ul>
          </div>
       </div>
@@ -437,7 +437,7 @@
                            <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                         </div>
                         <div class="product-img">
-                           <a href="{{ route('product',['product'=>$product->p_nm]) }}"><img class="product-min-height product-data" src="@if(!empty($product->main_image))@if(file_exists(public_path('front/product/'.$product->main_image))) {{ asset('public/front/product/'.$product->main_image)}} @else {{ asset('public/front/product/default_product_image.png')}} @endif @else {{ asset('public/front/product/default_product_image.png')}} @endif" alt="{{ $product->main_image }}"></a>
+                           <a href="{{ route('product',['product'=>$product->p_nm]) }}"><img class="product-min-height product-data" src="@if(!empty($product->main_image))@if(file_exists(public_path('front/product/'.$product->main_image))) {{ asset('front/product/'.$product->main_image)}} @else {{ asset('front/product/default_product_image.png')}} @endif @else {{ asset('front/product/default_product_image.png')}} @endif" alt="{{ $product->main_image }}"></a>
                         </div>
                         <div class="product-text">
                            <div class="prod-cat">{{ $product->cat_nm }}</div>
@@ -453,7 +453,7 @@
                            </div>
                         </div>
                         <div class="quickview">
-                           <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                           <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
                         </div>
                      </div>
                   </div>
@@ -493,16 +493,16 @@
                <div class="product-slider">
                   <div class="items">
                      <div class="item">
-                        <img src="images/1591.jpeg" alt="1591">
+                        <img src="{{ asset('front/images/1591.jpeg')}}" alt="1591">
                      </div>
                      <div class="item">
-                        <img src="images/1592.jpeg" alt="1592">
+                        <img src="{{ asset('front/images/1592.jpeg')}}" alt="1592">
                      </div>
                      <div class="item">
-                        <img src="images/1593.jpeg" alt="1593">
+                        <img src="{{ asset('front/images/1593.jpeg')}}" alt="1593">
                      </div>
                      <div class="item">
-                        <img src="images/1594.jpg" alt="1594">
+                        <img src="{{ asset('front/images/1594.jpg')}}" alt="1594">
                      </div>
                   </div>
                </div>
