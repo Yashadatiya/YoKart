@@ -8,61 +8,61 @@
             <ul>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/images/list-with-dots.svg')}}" alt="list-with-dots"></span>
+               <span class="icon"><img src="{{ asset('images/list-with-dots.svg')}}" alt="list-with-dots"></span>
                <span>All Categories</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/women-dress.svg')}}" alt="women-dress"></span>
+               <span class="icon"><img src="{{ asset('front/images/women-dress.svg')}}" alt="women-dress"></span>
                <span>Women Clothing</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/cotton-polo-shirt.svg')}}" alt="cotton-polo-shirt"></span>
+               <span class="icon"><img src="{{ asset('front/images/cotton-polo-shirt.svg')}}" alt="cotton-polo-shirt"></span>
                <span>Men Clothing</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/baby-boy.svg')}}" alt="baby-boy"></span>
+               <span class="icon"><img src="{{ asset('front/images/baby-boy.svg')}}" alt="baby-boy"></span>
                <span>Baby & Kids</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/running.svg')}}" alt="running"></span>
+               <span class="icon"><img src="{{ asset('front/images/running.svg')}}" alt="running"></span>
                <span>Footwares</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/football.svg')}}" alt="football"></span>
+               <span class="icon"><img src="{{ asset('front/images/football.svg')}}" alt="football"></span>
                <span>Sports wear</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/mobile-phone.svg')}}" alt="mobile-phone"></span>
+               <span class="icon"><img src="{{ asset('front/images/mobile-phone.svg')}}" alt="mobile-phone"></span>
                <span>Phones & Accessories</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/laptop.svg')}}" alt="laptop"></span>
+               <span class="icon"><img src="{{ asset('front/images/laptop.svg')}}" alt="laptop"></span>
                <span>Computer & Office</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/console.svg')}}" alt="console"></span>
+               <span class="icon"><img src="{{ asset('front/images/console.svg')}}" alt="console"></span>
                <span>Gaming Consoles</span>
             </a>
          </li>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('public/front/images/home.svg')}}" alt="home"></span>
+               <span class="icon"><img src="{{ asset('front/images/home.svg')}}" alt="home"></span>
                <span>Home & Garden</span>
             </a>
          </li>
@@ -93,15 +93,15 @@
                           @foreach($product_image as $img_key => $img_value)
                            <li>
 
-                              <a href="{{ asset('public/front/product/'.$img_value->file_name)}}" title="{{ $img_value->file_name }}">
+                              <a href="{{ asset('front/product/'.$img_value->file_name)}}" title="{{ $img_value->file_name }}">
 
-                                 <img class="cloudzoom-gallery" src="{{ asset('public/front/product/'.$img_value->file_name) }}" alt="{{ $img_value->file_name }}"
+                                 <img class="cloudzoom-gallery" src="{{ asset('front/product/'.$img_value->file_name) }}" alt="{{ $img_value->file_name }}"
 
                                  data-cloudzoom="
 
                                  useZoom:'.cloudzoom',
 
-                                 image:'{{ asset('public/front/product/'.$img_value->file_name )}}'
+                                 image:'{{ asset('front/product/'.$img_value->file_name )}}'
 
                                  ">
 
@@ -113,8 +113,8 @@
                         <div class="thumbelina-but vert bottom">&#709;</div>
                      </div>
                      <div id="product-image">
-                        <a href="{{ asset('public/front/product/'.$product_image[0]->file_name )}}">
-                           <img class="cloudzoom" src="{{ asset('public/front/product/'.$product_image[0]->file_name )}}"
+                        <a href="{{ asset('front/product/'.$product_image[0]->file_name )}}">
+                           <img class="cloudzoom" src="{{ asset('front/product/'.$product_image[0]->file_name )}}"
                            alt="{{ $product_image[0]->file_name }}"
                            data-cloudzoom="
                            zoomPosition:'inside',
@@ -245,7 +245,7 @@
                               <span>{{ $ex_value->color }}</span>
                               <ul class="color-check">
                                  @foreach($ex_value->images_new as $img_key => $img_value)
-                                 <li><a style="cursor: pointer;" onclick="get_product_data(this)" data-color="{{ $ex_value->color }}"><img src="@if(!empty($img_value))@if(file_exists(public_path('front/product/'.$img_value))) {{ asset('public/front/product/'.$img_value)}} @else {{ asset('public/front/product/default_product_image.png')}} @endif" alt="{{ $img_value }} @else {{ asset('public/front/product/default_product_image.png')}} @endif"></a></li>
+                                 <li><a style="cursor: pointer;" onclick="get_product_data(this)" data-color="{{ $ex_value->color }}"><img src="@if(!empty($img_value))@if(file_exists(public_path('front/product/'.$img_value))) {{ asset('front/product/'.$img_value)}} @else {{ asset('front/product/default_product_image.png')}} @endif" alt="{{ $img_value }} @else {{ asset('front/product/default_product_image.png')}} @endif"></a></li>
                                  @endforeach
                               </ul>
                               </div>
@@ -558,16 +558,16 @@
                      <div class="product-slider">
                         <div class="items">
                            <div class="item">
-                              <img src="images/1591.jpeg" alt="1591">
+                              <img src="{{ asset('front/images/1591.jpeg')}}" alt="1591">
                            </div>
                            <div class="item">
-                              <img src="images/1592.jpeg" alt="1592">
+                              <img src="{{ asset('front/images/1592.jpeg')}}" alt="1592">
                            </div>
                            <div class="item">
-                              <img src="images/1593.jpeg" alt="1593">
+                              <img src="{{ asset('front/images/1593.jpeg')}}" alt="1593">
                            </div>
                            <div class="item">
-                              <img src="images/1594.jpg" alt="1594">
+                              <img src="{{ asset('front/images/1594.jpg')}}" alt="1594">
                            </div>
                         </div>
                      </div>
