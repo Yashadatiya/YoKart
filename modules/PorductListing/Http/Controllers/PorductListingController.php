@@ -107,7 +107,7 @@ class PorductListingController extends Controller
                         <ul class="product_images_display " style="top: 0px;">';
         foreach ($product_size as $img_key => $img_value) 
         {
-            $img_name = url('/public/front/product/'.$img_value->image);
+            $img_name = url('/front/product/'.$img_value->image);
             $color_data .= '<li style="display:block;"><a href='.$img_name.' title="'.$img_value->image.'"><img class="cloudzoom-gallery" src='.$img_name.' alt="'.$img_value->image.'" data-cloudzoom="
 
                                 useZoom:'.$class.',
@@ -120,7 +120,7 @@ class PorductListingController extends Controller
                         <div class="thumbelina-but vert bottom">˅</div>';
         $inside = "'inside'";         
         $auto = "'auto'";         
-        $default_img = url('/public/front/product/'.$product_size[0]->image);
+        $default_img = url('/front/product/'.$product_size[0]->image);
         $default_data .= '<a href="'.$default_img.'">
                <img class="cloudzoom" src="'.$default_img.'"
                alt="'.$product_size[0]->image.'"
