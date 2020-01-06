@@ -55,7 +55,7 @@
           <div class="footer-group">
             <h5 class="footer-title">Sell with Yokart</h5>
             <div class="store-button">
-              <a class="btn" href="javascript:void(0)"><img src="{{ asset('public//front/images/store-icn.png') }}">Open a Store</a>
+              <a class="btn" href="javascript:void(0)"><img src="{{ asset('front/images/store-icn.png') }}">Open a Store</a>
             </div>
           </div>
         </div>
@@ -72,8 +72,8 @@
               </div>
             </form>
             <ul class="contact-info">
-              <li><img src="{{ asset('public/front/images/icn-mobile.png')}}" alt="icn-mobile">(180) 027-2172</li>
-              <li><a href="mailto:yokart@dummyid.com"><img src="{{ asset('public/front/images/icn-email.png')}}" alt="icn-email">yokart@dummyid.com</a></li>
+              <li><img src="{{ asset('front/images/icn-mobile.png')}}" alt="icn-mobile">(180) 027-2172</li>
+              <li><a href="mailto:yokart@dummyid.com"><img src="{{ asset('front/images/icn-email.png')}}" alt="icn-email">yokart@dummyid.com</a></li>
             </ul>
           </div>
         </div>
@@ -81,7 +81,7 @@
       <div class="row bottom-footer">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <div class="payment">
-            <img src="{{ asset('public/front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('public/front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('public/front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('public/front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('public/front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('public/front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('public/front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('public/front/images/payment.png')}}" alt="Payment Options">
+            <img src="{{ asset('front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('front/images/payment.png')}}" alt="Payment Options">  <img src="{{ asset('front/images/payment.png')}}" alt="Payment Options">
           </div>
         </div>
       </div>
