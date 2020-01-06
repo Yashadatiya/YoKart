@@ -6,7 +6,7 @@
       <div class="items">
         @foreach($banner as $banner_key => $banner_value)
           <div class="item">
-            <img src="{{ asset('public/front/banner')}}/{{$banner_value->filename}}" alt="slide1" style="max-height: 700px !important;">
+            <img src="{{ asset('front/banner')}}/{{$banner_value->filename}}" alt="slide1" style="max-height: 700px !important;">
           </div>
         @endforeach
       </div>
@@ -17,61 +17,61 @@
       <ul>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/images/list-with-dots.svg')}}" alt="list-with-dots"></span>
+            <span class="icon"><img src="{{ asset('images/list-with-dots.svg')}}" alt="list-with-dots"></span>
             <span>All Categories</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/women-dress.svg')}}" alt="women-dress"></span>
+            <span class="icon"><img src="{{ asset('front/images/women-dress.svg')}}" alt="women-dress"></span>
             <span>Women Clothing</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/cotton-polo-shirt.svg')}}" alt="cotton-polo-shirt"></span>
+            <span class="icon"><img src="{{ asset('front/images/cotton-polo-shirt.svg')}}" alt="cotton-polo-shirt"></span>
             <span>Men Clothing</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/baby-boy.svg')}}" alt="baby-boy"></span>
+            <span class="icon"><img src="{{ asset('front/images/baby-boy.svg')}}" alt="baby-boy"></span>
             <span>Baby & Kids</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/running.svg')}}" alt="running"></span>
+            <span class="icon"><img src="{{ asset('front/images/running.svg')}}" alt="running"></span>
             <span>Footwares</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/football.svg')}}" alt="football"></span>
+            <span class="icon"><img src="{{ asset('front/images/football.svg')}}" alt="football"></span>
             <span>Sports wear</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/mobile-phone.svg')}}" alt="mobile-phone"></span>
+            <span class="icon"><img src="{{ asset('front/images/mobile-phone.svg')}}" alt="mobile-phone"></span>
             <span>Phones & Accessories</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/laptop.svg')}}" alt="laptop"></span>
+            <span class="icon"><img src="{{ asset('front/images/laptop.svg')}}" alt="laptop"></span>
             <span>Computer & Office</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/console.svg')}}" alt="console"></span>
+            <span class="icon"><img src="{{ asset('front/images/console.svg')}}" alt="console"></span>
             <span>Gaming Consoles</span>
           </a>
         </li>
         <li>
           <a href="">
-            <span class="icon"><img src="{{ asset('public/front/images/home.svg')}}" alt="home"></span>
+            <span class="icon"><img src="{{ asset('front/images/home.svg')}}" alt="home"></span>
             <span>Home & Garden</span>
           </a>
         </li>
@@ -90,7 +90,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro1.jpeg')}}" alt="pro1">
+                  <img src="{{ asset('front/images/pro1.jpeg')}}" alt="pro1">
                 </a>
               </div>
               <div class="product-text">
@@ -102,7 +102,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro2.jpeg')}}" alt="pro2">
+                  <img src="{{ asset('front/images/pro2.jpeg')}}" alt="pro2">
                 </a>
               </div>
               <div class="product-text">
@@ -125,7 +125,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -136,7 +136,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro3.jpeg')}}" alt="pro3">
+                  <img src="{{ asset('front/images/pro3.jpeg')}}" alt="pro3">
                 </a>
               </div>
               <div class="product-text">
@@ -148,7 +148,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro4.jpeg')}}" alt="pro4">
+                  <img src="{{ asset('front/images/pro4.jpeg')}}" alt="pro4">
                 </a>
               </div>
               <div class="product-text">
@@ -171,7 +171,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -182,7 +182,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro5.jpeg')}}" alt="pro5">
+                  <img src="{{ asset('front/images/pro5.jpeg')}}" alt="pro5">
                 </a>
               </div>
               <div class="product-text">
@@ -194,7 +194,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -205,7 +205,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro6.jpeg')}}" alt="pro6">
+                  <img src="{{ asset('front/images/pro6.jpeg')}}" alt="pro6">
                 </a>
               </div>
               <div class="product-text">
@@ -217,7 +217,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div> 
@@ -236,7 +236,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-1.jpg')}}" alt="tp-img-1"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-1.jpg')}}" alt="tp-img-1"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -247,7 +247,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -257,7 +257,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-2.jpg')}}" alt="tp-img-2"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-2.jpg')}}" alt="tp-img-2"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -268,7 +268,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -278,7 +278,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-3.jpg')}}" alt="tp-img-3"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-3.jpg')}}" alt="tp-img-3"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -289,7 +289,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -299,7 +299,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-4.jpg')}}" alt="tp-img-4"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-4.jpg')}}" alt="tp-img-4"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -310,7 +310,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -320,7 +320,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-5.jpg')}}" alt="tp-img-5"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-5.jpg')}}" alt="tp-img-5"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -331,7 +331,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -341,7 +341,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-6.jpg')}}" alt="tp-img-6"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-6.jpg')}}" alt="tp-img-6"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -352,7 +352,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -362,7 +362,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-7.jpg')}}" alt="tp-img-7"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-7.jpg')}}" alt="tp-img-7"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -373,7 +373,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -383,7 +383,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-8.jpg')}}" alt="tp-img-8"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-8.jpg')}}" alt="tp-img-8"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -394,7 +394,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -404,7 +404,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-9.jpg')}}" alt="tp-img-9"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-9.jpg')}}" alt="tp-img-9"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -415,7 +415,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -425,7 +425,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-10.jpg')}}" alt="tp-img-10"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-10.jpg')}}" alt="tp-img-10"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -436,7 +436,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -446,7 +446,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-11.jpg')}}" alt="tp-img-11"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-11.jpg')}}" alt="tp-img-11"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -457,7 +457,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -467,7 +467,7 @@
                 <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
               </div>
               <div class="product-img">
-                <a href="javascript:void(0)"><img src="{{ asset('public/front/images/tp-img-12.jpg')}}" alt="tp-img-12"></a>
+                <a href="javascript:void(0)"><img src="{{ asset('front/images/tp-img-12.jpg')}}" alt="tp-img-12"></a>
               </div>
               <div class="product-text">
                 <div class="prod-cat">Men</div>
@@ -478,7 +478,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -508,7 +508,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/electronic-tile-1.jpg')}}" alt="electronic-tile-1">
+                    <img src="{{ asset('front/images/electronic-tile-1.jpg')}}" alt="electronic-tile-1">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -521,7 +521,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/electronic-tile-2.jpg')}}" alt="electronic-tile-2">
+                    <img src="{{ asset('front/images/electronic-tile-2.jpg')}}" alt="electronic-tile-2">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -537,7 +537,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/electronic-tile-3.jpg')}}" alt="electronic-tile-3">
+                    <img src="{{ asset('front/images/electronic-tile-3.jpg')}}" alt="electronic-tile-3">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -550,7 +550,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/electronic-tile-4.jpg')}}" alt="electronic-tile-4">
+                    <img src="{{ asset('front/images/electronic-tile-4.jpg')}}" alt="electronic-tile-4">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -563,7 +563,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/electronic-tile-5.jpg')}}" alt="electronic-tile-5">
+                    <img src="{{ asset('front/images/electronic-tile-5.jpg')}}" alt="electronic-tile-5">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -576,7 +576,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/electronic-tile-6.jpg')}}" alt="electronic-tile-6">
+                    <img src="{{ asset('front/images/electronic-tile-6.jpg')}}" alt="electronic-tile-6">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -589,7 +589,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/electronic-tile-7.jpg')}}" alt="electronic-tile-7">
+                    <img src="{{ asset('front/images/electronic-tile-7.jpg')}}" alt="electronic-tile-7">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -606,7 +606,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/men-tile-1.jpg')}}" alt="men-tile-1">
+                    <img src="{{ asset('front/images/men-tile-1.jpg')}}" alt="men-tile-1">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -619,7 +619,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/men-tile-2.jpg')}}" alt="men-tile-2">
+                    <img src="{{ asset('front/images/men-tile-2.jpg')}}" alt="men-tile-2">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -632,7 +632,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/men-tile-3.jpg')}}" alt="men-tile-3">
+                    <img src="{{ asset('front/images/men-tile-3.jpg')}}" alt="men-tile-3">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -648,7 +648,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/men-tile-4.jpg')}}" alt="men-tile-4">
+                    <img src="{{ asset('front/images/men-tile-4.jpg')}}" alt="men-tile-4">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -661,7 +661,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/men-tile-5.jpg')}}" alt="men-tile-5">
+                    <img src="{{ asset('front/images/men-tile-5.jpg')}}" alt="men-tile-5">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -674,7 +674,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/men-tile-6.jpg')}}" alt="men-tile-6">
+                    <img src="{{ asset('front/images/men-tile-6.jpg')}}" alt="men-tile-6">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -687,7 +687,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/men-tile-7.jpg')}}" alt="men-tile-7">
+                    <img src="{{ asset('front/images/men-tile-7.jpg')}}" alt="men-tile-7">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -707,7 +707,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/women-tile-1.jpg')}}" alt="women-tile-1">
+                    <img src="{{ asset('front/images/women-tile-1.jpg')}}" alt="women-tile-1">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -723,7 +723,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/women-tile-2.jpg')}}" alt="women-tile-2">
+                    <img src="{{ asset('front/images/women-tile-2.jpg')}}" alt="women-tile-2">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -736,7 +736,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/women-tile-3.jpg')}}" alt="women-tile-3">
+                    <img src="{{ asset('front/images/women-tile-3.jpg')}}" alt="women-tile-3">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -749,7 +749,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/women-tile-4.jpg')}}" alt="women-tile-4">
+                    <img src="{{ asset('front/images/women-tile-4.jpg')}}" alt="women-tile-4">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -762,7 +762,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/women-tile-5.jpg')}}" alt="women-tile-5">
+                    <img src="{{ asset('front/images/women-tile-5.jpg')}}" alt="women-tile-5">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -775,7 +775,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/women-tile-6.jpg')}}" alt="women-tile-6">
+                    <img src="{{ asset('front/images/women-tile-6.jpg')}}" alt="women-tile-6">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -791,7 +791,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/women-tile-7.jpg')}}" alt="women-tile-7">
+                    <img src="{{ asset('front/images/women-tile-7.jpg')}}" alt="women-tile-7">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -811,7 +811,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/footwear-tile-1.jpg')}}" alt="footwear-tile-1">
+                    <img src="{{ asset('front/images/footwear-tile-1.jpg')}}" alt="footwear-tile-1">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -824,7 +824,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/footwear-tile-2.jpg')}}" alt="footwear-tile-2">
+                    <img src="{{ asset('front/images/footwear-tile-2.jpg')}}" alt="footwear-tile-2">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -837,7 +837,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/footwear-tile-3.jpg')}}" alt="footwear-tile-3">
+                    <img src="{{ asset('front/images/footwear-tile-3.jpg')}}" alt="footwear-tile-3">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -850,7 +850,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/footwear-tile-4.jpg')}}" alt="footwear-tile-4">
+                    <img src="{{ asset('front/images/footwear-tile-4.jpg')}}" alt="footwear-tile-4">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -866,7 +866,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/footwear-tile-5.jpg')}}" alt="footwear-tile-5">
+                    <img src="{{ asset('front/images/footwear-tile-5.jpg')}}" alt="footwear-tile-5">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -882,7 +882,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/footwear-tile-6.jpg')}}" alt="footwear-tile-6">
+                    <img src="{{ asset('front/images/footwear-tile-6.jpg')}}" alt="footwear-tile-6">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -898,7 +898,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/footwear-tile-7.jpg')}}" alt="footwear-tile-7">
+                    <img src="{{ asset('front/images/footwear-tile-7.jpg')}}" alt="footwear-tile-7">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -915,7 +915,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/baby-tile-1.jpg')}}" alt="baby-tile-1">
+                    <img src="{{ asset('front/images/baby-tile-1.jpg')}}" alt="baby-tile-1">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -928,7 +928,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/baby-tile-2.jpg')}}" alt="baby-tile-2">
+                    <img src="{{ asset('front/images/baby-tile-2.jpg')}}" alt="baby-tile-2">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -941,7 +941,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/baby-tile-3.jpg')}}" alt="baby-tile-3">
+                    <img src="{{ asset('front/images/baby-tile-3.jpg')}}" alt="baby-tile-3">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -954,7 +954,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/baby-tile-4.jpg')}}" alt="baby-tile-4">
+                    <img src="{{ asset('front/images/baby-tile-4.jpg')}}" alt="baby-tile-4">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -967,7 +967,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/baby-tile-5.jpg')}}" alt="baby-tile-5">
+                    <img src="{{ asset('front/images/baby-tile-5.jpg')}}" alt="baby-tile-5">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -980,7 +980,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/baby-tile-6.jpg')}}" alt="baby-tile-6">
+                    <img src="{{ asset('front/images/baby-tile-6.jpg')}}" alt="baby-tile-6">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -993,7 +993,7 @@
                     <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                   </div>
                   <div class="product-img">
-                    <img src="{{ asset('public/front/images/baby-tile-7.jpg')}}" alt="baby-tile-7">
+                    <img src="{{ asset('front/images/baby-tile-7.jpg')}}" alt="baby-tile-7">
                   </div>
                   <div class="content-overlay"></div>
                   <div class="content-details">
@@ -1012,7 +1012,7 @@
     <section class="featured-product">
       <div class="custom-container">
         <div class="banner-wrap">
-          <img src="{{ asset('public/front/images/featured-product-banner.jpg')}}" alt="featured-product-banner">
+          <img src="{{ asset('front/images/featured-product-banner.jpg')}}" alt="featured-product-banner">
         </div>
         <h2 class="section-title">Featured Products</h2>
         <div class="product-horizontal">
@@ -1023,7 +1023,7 @@
                   <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                 </div>
                 <div class="product-img">
-                  <a href="javascript:void(0)"><img src="{{ asset('public/front/images/fp-1.jpg')}}"></a>
+                  <a href="javascript:void(0)"><img src="{{ asset('front/images/fp-1.jpg')}}"></a>
                 </div>
                 <div class="product-text">
                   <div class="prod-cat">Men</div>
@@ -1034,7 +1034,7 @@
                   </div>
                 </div>
                 <div class="quickview">
-                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
                 </div>
               </div>
             </div>
@@ -1044,7 +1044,7 @@
                   <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                 </div>
                 <div class="product-img">
-                  <a href="javascript:void(0)"><img src="{{ asset('public/front/images/fp-2.jpg')}}"></a>
+                  <a href="javascript:void(0)"><img src="{{ asset('front/images/fp-2.jpg')}}"></a>
                 </div>
                 <div class="product-text">
                   <div class="prod-cat">Men</div>
@@ -1055,7 +1055,7 @@
                   </div>
                 </div>
                 <div class="quickview">
-                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
                 </div>
               </div>
             </div>
@@ -1065,7 +1065,7 @@
                   <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                 </div>
                 <div class="product-img">
-                  <a href="javascript:void(0)"><img src="{{ asset('public/front/images/fp-3.jpg')}}"></a>
+                  <a href="javascript:void(0)"><img src="{{ asset('front/images/fp-3.jpg')}}"></a>
                 </div>
                 <div class="product-text">
                   <div class="prod-cat">Men</div>
@@ -1076,7 +1076,7 @@
                   </div>
                 </div>
                 <div class="quickview">
-                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
                 </div>
               </div>
             </div>
@@ -1086,7 +1086,7 @@
                   <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                 </div>
                 <div class="product-img">
-                  <a href="javascript:void(0)"><img src="{{ asset('public/front/images/fp-4.jpg')}}"></a>
+                  <a href="javascript:void(0)"><img src="{{ asset('front/images/fp-4.jpg')}}"></a>
                 </div>
                 <div class="product-text">
                   <div class="prod-cat">Men</div>
@@ -1097,7 +1097,7 @@
                   </div>
                 </div>
                 <div class="quickview">
-                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
                 </div>
               </div>
             </div>
@@ -1107,7 +1107,7 @@
                   <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                 </div>
                 <div class="product-img">
-                  <a href="javascript:void(0)"><img src="{{ asset('public/front/images/fp-5.jpg')}}"></a>
+                  <a href="javascript:void(0)"><img src="{{ asset('front/images/fp-5.jpg')}}"></a>
                 </div>
                 <div class="product-text">
                   <div class="prod-cat">Men</div>
@@ -1118,7 +1118,7 @@
                   </div>
                 </div>
                 <div class="quickview">
-                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
                 </div>
               </div>
             </div>
@@ -1128,7 +1128,7 @@
                   <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
                 </div>
                 <div class="product-img">
-                  <a href="javascript:void(0)"><img src="{{ asset('public/front/images/fp-6.jpg')}}"></a>
+                  <a href="javascript:void(0)"><img src="{{ asset('front/images/fp-6.jpg')}}"></a>
                 </div>
                 <div class="product-text">
                   <div class="prod-cat">Men</div>
@@ -1139,7 +1139,7 @@
                   </div>
                 </div>
                 <div class="quickview">
-                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                  <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
                 </div>
               </div>
             </div>
@@ -1150,14 +1150,14 @@
             <div class="col-md-6">
               <div class="banner-image">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/banner-fp-2.jpg')}}" alt="banner-fp-1">
+                  <img src="{{ asset('front/images/banner-fp-2.jpg')}}" alt="banner-fp-1">
                 </a>
               </div>
             </div>
             <div class="col-md-6">
               <div class="banner-image">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/banner-fp-1.jpg')}}" alt="banner-fp-2">
+                  <img src="{{ asset('front/images/banner-fp-1.jpg')}}" alt="banner-fp-2">
                 </a>
               </div>
             </div>
@@ -1174,7 +1174,7 @@
           <div class="col-xl-3 col-lg-6 col-sm-6">
             <div class="top-bundle">
               <div class="cat-img">
-                <img src="{{ asset('public/front/images/electronics.jpg')}}">
+                <img src="{{ asset('front/images/electronics.jpg')}}">
               </div>
               <div class="cat-title">
                 <a href="javascript:void(0)">Electronics</a>
@@ -1191,7 +1191,7 @@
           <div class="col-xl-3 col-lg-6 col-sm-6">
             <div class="top-bundle">
               <div class="cat-img">
-                <img src="{{ asset('public/front/images/mobiles.jpg')}}">
+                <img src="{{ asset('front/images/mobiles.jpg')}}">
               </div>
               <div class="cat-title">
                 <a href="javascript:void(0)">Mobiles</a>
@@ -1207,7 +1207,7 @@
           <div class="col-xl-3 col-lg-6 col-sm-6">
             <div class="top-bundle">
               <div class="cat-img">
-                <img src="{{ asset('public/front/images/game-consoles.jpg')}}">
+                <img src="{{ asset('front/images/game-consoles.jpg')}}">
               </div>
               <div class="cat-title">
                 <a href="javascript:void(0)">Gaming Consoles</a>
@@ -1222,7 +1222,7 @@
           <div class="col-xl-3 col-lg-6 col-sm-6">
             <div class="top-bundle">
               <div class="cat-img">
-                <img src="{{ asset('public/front/images/laptops.jpg')}}">
+                <img src="{{ asset('front/images/laptops.jpg')}}">
               </div>
               <div class="cat-title">
                 <a href="javascript:void(0)">Laptops</a>
@@ -1250,7 +1250,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro1.jpeg')}}" alt="pro1">
+                  <img src="{{ asset('front/images/pro1.jpeg')}}" alt="pro1">
                 </a>
               </div>
               <div class="product-text">
@@ -1262,7 +1262,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
             <div class="item grid">
@@ -1271,7 +1271,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro1.jpeg')}}" alt="pro1">
+                  <img src="{{ asset('front/images/pro1.jpeg')}}" alt="pro1">
                 </a>
               </div>
               <div class="product-text">
@@ -1283,7 +1283,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
             <div class="item grid">
@@ -1292,7 +1292,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro1.jpeg')}}" alt="pro1">
+                  <img src="{{ asset('front/images/pro1.jpeg')}}" alt="pro1">
                 </a>
               </div>
               <div class="product-text">
@@ -1304,7 +1304,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
             <div class="item grid">
@@ -1313,7 +1313,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro1.jpeg')}}" alt="pro1">
+                  <img src="{{ asset('front/images/pro1.jpeg')}}" alt="pro1">
                 </a>
               </div>
               <div class="product-text">
@@ -1325,7 +1325,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
             <div class="item grid">
@@ -1334,7 +1334,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro1.jpeg')}}" alt="pro1">
+                  <img src="{{ asset('front/images/pro1.jpeg')}}" alt="pro1">
                 </a>
               </div>
               <div class="product-text">
@@ -1346,7 +1346,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
             <div class="item grid">
@@ -1355,7 +1355,7 @@
               </div>
               <div class="product-img">
                 <a href="javascript:void(0)">
-                  <img src="{{ asset('public/front/images/pro1.jpeg')}}" alt="pro1">
+                  <img src="{{ asset('front/images/pro1.jpeg')}}" alt="pro1">
                 </a>
               </div>
               <div class="product-text">
@@ -1367,7 +1367,7 @@
                 </div>
               </div>
               <div class="quickview">
-                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+                <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
               </div>
             </div>
           </div>
@@ -1381,11 +1381,11 @@
         <h2 class="section-title">Top Brands</h2>
         <a class="view-more" href="javascript:void(0)">view more</a>
         <ul class="brand-img">
-          <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/apple.png')}}"></a></li>
-          <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/arrow.jpg')}}"></a></li>
-          <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/fabindia.png')}}"></a></li>
-          <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/avast.png')}}"></a></li>
-          <li><a href="javascript:void(0)"><img src="{{ asset('public/front/images/louis-philip.png')}}"></a></li>
+          <li><a href="javascript:void(0)"><img src="{{ asset('front/images/apple.png')}}"></a></li>
+          <li><a href="javascript:void(0)"><img src="{{ asset('front/images/arrow.jpg')}}"></a></li>
+          <li><a href="javascript:void(0)"><img src="{{ asset('front/images/fabindia.png')}}"></a></li>
+          <li><a href="javascript:void(0)"><img src="{{ asset('front/images/avast.png')}}"></a></li>
+          <li><a href="javascript:void(0)"><img src="{{ asset('front/images/louis-philip.png')}}"></a></li>
         </ul>
       </div>
     </section>
@@ -1417,16 +1417,16 @@
             <div class="product-slider">
               <div class="items">
                 <div class="item">
-                  <img src="{{ asset('public/front/images/1591.jpeg')}}" alt="1591">
+                  <img src="{{ asset('front/images/1591.jpeg')}}" alt="1591">
                 </div>
                 <div class="item">
-                  <img src="{{ asset('public/front/images/1592.jpeg')}}" alt="1592">
+                  <img src="{{ asset('front/images/1592.jpeg')}}" alt="1592">
                 </div>
                 <div class="item">
-                  <img src="{{ asset('public/front/images/1593.jpeg')}}" alt="1593">
+                  <img src="{{ asset('front/images/1593.jpeg')}}" alt="1593">
                 </div>
                 <div class="item">
-                  <img src="{{ asset('public/front/images/1594.jpg')}}" alt="1594">
+                  <img src="{{ asset('front/images/1594.jpg')}}" alt="1594">
                 </div>
               </div>
             </div>
