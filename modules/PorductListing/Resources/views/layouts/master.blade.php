@@ -11,50 +11,50 @@
     <!-- <title>{{config('constants.SITE_NAME')}} | @yield('title')</title> -->
     <title>Yokart | @yield('title')</title>
     <!-- Scripts -->
-    <!-- <script src="{{ asset('public/js/app.js') }}" defer></script> -->
+    <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
 
     <!-- Fonts -->
-    <link href="{{ asset('public/front/images/App.png')}}" rel="icon" type="image/png">
+    <link href="{{ asset('front/images/App.png')}}" rel="icon" type="image/png">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
-    {{-- <link href="{{ asset('public/front/css-thirdparty/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('public/front/css-thirdparty/owl.carousel.css')}}" rel="stylesheet">
+    {{-- <link href="{{ asset('front/css-thirdparty/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('front/css-thirdparty/owl.carousel.css')}}" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('public/front/css/main.css')}}">
+    <link rel="stylesheet" href="{{ asset('front/css/main.css')}}">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ asset('public/front/js/thirdparty/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('front/js/thirdparty/bootstrap.min.js')}}"></script>
    
-    <link rel="stylesheet" href="{{ asset('public/front/css/custom.css')}}">
+    <link rel="stylesheet" href="{{ asset('front/css/custom.css')}}">
     <link href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css" rel="stylesheet">
-    {{-- <script src="{{ asset('public/front/js/thirdparty/jquery-3.2.1.min.js')}}"></script> 
+    {{-- <script src="{{ asset('front/js/thirdparty/jquery-3.2.1.min.js')}}"></script> 
     <link rel='stylesheet' href='https://cdn.rawgit.com/StarPlugins/thumbelina/8b9c09d9/thumbelina.css'>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-    <script type="text/javascript" src="{{ asset('public/front/js/thirdparty/owl.carousel.min.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('front/js/thirdparty/owl.carousel.min.js')}}"></script>
     <script src='https://cdn.rawgit.com/StarPlugins/thumbelina/8b9c09d9/thumbelina.js'></script>
-    <script  src="{{ asset('public/front/js/zoom.js') }}"></script> --}}
+    <script  src="{{ asset('front/js/zoom.js') }}"></script> --}}
 
-     <link rel="stylesheet" href="{{ asset('public/front/css/custom.css')}}">
-    <link href="{{ asset('public/front/css-thirdparty/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('public/front/css-thirdparty/owl.carousel.css')}}" rel="stylesheet">
+     <link rel="stylesheet" href="{{ asset('front/css/custom.css')}}">
+    <link href="{{ asset('front/css-thirdparty/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('front/css-thirdparty/owl.carousel.css')}}" rel="stylesheet">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="{{ asset('public/front/css/main.css')}}">
+    <link rel="stylesheet" href="{{ asset('front/css/main.css')}}">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ asset('public/front/js/thirdparty/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('front/js/thirdparty/bootstrap.min.js')}}"></script>
   <!--     <link href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css" rel="stylesheet">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script> -->
 
     <link href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css" rel="stylesheet">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-    <script type="text/javascript" src="{{ asset('public/front/js/thirdparty/owl.carousel.min.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('front/js/thirdparty/owl.carousel.min.js')}}"></script>
     <link rel='stylesheet' href='https://cdn.rawgit.com/StarPlugins/thumbelina/8b9c09d9/thumbelina.css'>
-    {{-- <link rel="stylesheet" href="{{ asset('public/front/css/style.css')}}"> --}}
+    {{-- <link rel="stylesheet" href="{{ asset('front/css/style.css')}}"> --}}
 
     <script src='https://cdn.rawgit.com/StarPlugins/thumbelina/8b9c09d9/thumbelina.js'></script>
-    <script  src="{{ asset('public/front/js/zoom.js')}}"></script>
+    <script  src="{{ asset('front/js/zoom.js')}}"></script>
 
 
     <style type="text/css">
@@ -72,7 +72,7 @@
         display : block;
         position : fixed;
         z-index: 11111;
-        background-image : url('http://technocometsolutions.com/ecomm/public/front/ajax-spinner.gif');
+        background-image : url('http://technocometsolutions.com/ecomm/front/ajax-spinner.gif');
         background-color:transparent;
         opacity : 1;
         background-repeat : no-repeat;
@@ -98,7 +98,7 @@
        {{--  <div class="main-header">
             <div class="logo-header" data-background-color="blue">
                 <a href="" class="logo">
-                    <img src="{{ asset('public/images/logo-white.png')}}" alt="navbar brand" class="navbar-brand" style="height:60%">
+                    <img src="{{ asset('images/logo-white.png')}}" alt="navbar brand" class="navbar-brand" style="height:60%">
                 </a>
                 <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -133,8 +133,8 @@
       });
     </script>
    
-     <script type="text/javascript" src="{{ asset('public/front/js/product.js')}}"></script>
-    <script type="text/javascript" src="{{ asset('public/front/js/app.min.js')}}"></script>
+     <script type="text/javascript" src="{{ asset('front/js/product.js')}}"></script>
+    <script type="text/javascript" src="{{ asset('front/js/app.min.js')}}"></script>
 
 </body>
 <div id="divLoading">
