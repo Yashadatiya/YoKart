@@ -1,44 +1,3 @@
-{{-- <div id="thumbnails">
-   <div class="thumbelina-but vert top">&#708;</div>
-   <ul class="product_images_display">
-     @foreach($product_size as $img_key => $img_value)
-      <li>
-
-         <a href="{{ asset('public/front/product/'.$img_value->image)}}" title="{{ $img_value->image }}">
-
-            <img class="cloudzoom-gallery" src="{{ asset('public/front/product/'.$img_value->image) }}" alt="{{ $img_value->image }}"
-
-            data-cloudzoom="
-
-            useZoom:'.cloudzoom',
-
-            image:'{{ asset('public/front/product/'.$img_value->image )}}'
-
-            ">
-
-         </a>
-
-      </li>
-      @endforeach
-   </ul>
-   <div class="thumbelina-but vert bottom">&#709;</div>
-</div>
-<div id="product-image">
-   <a href="{{ asset('public/front/product/'.$product_size[0]->image )}}">
-      <img class="cloudzoom" src="{{ asset('public/front/product/'.$product_size[0]->image )}}"
-      alt="{{ $product_size[0]->image }}"
-      data-cloudzoom="
-      zoomPosition:'inside',
-      zoomOffsetX:0,
-      zoomFlyOut:false,
-      variableMagnification:false,
-      disableZoom:'auto',
-      touchStartDelay:100,
-      propagateGalleryEvent:true
-      ">
-   </a>
-
-</div> --}}
 <div class="sorting-sec">
    <ul class="sort-data">
       <li><span>Sort By</span></li>
@@ -79,7 +38,7 @@
             <a href="javascript:void(0)"><i class="fas fa-heart"></i></a>
          </div>
          <div class="product-img">
-            <a href="{{ route('product',['product'=>$product->p_nm]) }}"><img class="product-min-height product-data" src="@if(!empty($product->main_image))@if(file_exists(public_path('front/product/'.$product->main_image))) {{ asset('public/front/product/'.$product->main_image)}} @else {{ asset('public/front/product/default_product_image.png')}} @endif @else {{ asset('public/front/product/default_product_image.png')}} @endif" alt="{{ $product->main_image }}"></a>
+            <a href="{{ route('product',['product'=>$product->p_nm]) }}"><img class="product-min-height product-data" src="@if(!empty($product->main_image))@if(file_exists(public_path('front/product/'.$product->main_image))) {{ asset('front/product/'.$product->main_image)}} @else {{ asset('front/product/default_product_image.png')}} @endif @else {{ asset('front/product/default_product_image.png')}} @endif" alt="{{ $product->main_image }}"></a>
          </div>
          <div class="product-text">
             <div class="prod-cat">{{ $product->cat_nm }}</div>
@@ -95,7 +54,7 @@
             </div>
          </div>
          <div class="quickview">
-            <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('public/front/images/view.svg')}}" alt="view"></span>Quick View</a>
+            <a href="javascript:void(0);" class="inline-content" data-toggle="modal" data-target="#exampleModalScrollable"><span class="svg-icon"><img src="{{ asset('front/images/view.svg')}}" alt="view"></span>Quick View</a>
          </div>
       </div>
    </div>
