@@ -6,7 +6,7 @@
         </div>
         <div class="right-wrap">
           <div class="lang">
-            <div class="icon"><img src="{{ asset('public/front/images/glob.svg')}}" alt="glob">English</div>
+            <div class="icon"><img src="{{ asset('front/images/glob.svg')}}" alt="glob">English</div>
             <div class="option-dropdown">
               <ul>
                 <li>Select Language</li>
@@ -16,7 +16,7 @@
             </div>
           </div>
           <div class="currency">
-            <div class="icon"><img src="{{ asset('public/front/images/dolar.svg')}} " alt="dolar">Currency</div>
+            <div class="icon"><img src="{{ asset('front/images/dolar.svg')}} " alt="dolar">Currency</div>
             <div class="option-dropdown">
               <ul>
                 <li>Select Currency</li>
@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="login-reg">
-            <div class="icon"><img src="{{ asset('public/front/images/user.svg')}}" alt="user"></div>
+            <div class="icon"><img src="{{ asset('front/images/user.svg')}}" alt="user"></div>
             <div class="text">
 
               @guest
@@ -53,7 +53,7 @@
     <div class="middle-header">
       <div class="custom-container">
         <div class="logo-wrap">
-          <img src="{{ asset('public/front/images/logo.png')}}" alt="logo">
+          <img src="{{ asset('front/images/logo.png')}}" alt="logo">
         </div>
         <div class="search-wrap">
           <form>
@@ -69,13 +69,13 @@
               <input type="I Am Looking For..." name="">
             </div>
             <div class="form-action">
-              <button class="btn"><img src="{{ asset('public/front/images/search-white')}}.svg" alt="search-white"> Search</button>
+              <button class="btn"><img src="{{ asset('front/images/search-white')}}.svg" alt="search-white"> Search</button>
             </div>
           </form>
         </div>
         <div class="cart-icon">
           <div class="icon-wrap">
-            <div class="icon"><img src="{{ asset('public/front/images/cart.svg')}}"></div>
+            <div class="icon"><img src="{{ asset('front/images/cart.svg')}}"></div>
             <span class="count">0</span>
           </div>
           <div class="text-amount">
