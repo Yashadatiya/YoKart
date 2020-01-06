@@ -8,7 +8,7 @@
             <ul>
          <li>
             <a href="">
-               <span class="icon"><img src="{{ asset('images/list-with-dots.svg')}}" alt="list-with-dots"></span>
+               <span class="icon"><img src="{{ asset('front/images/list-with-dots.svg')}}" alt="list-with-dots"></span>
                <span>All Categories</span>
             </a>
          </li>
